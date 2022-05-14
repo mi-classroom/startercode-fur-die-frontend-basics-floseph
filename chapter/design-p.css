@@ -1,0 +1,143 @@
+body {
+  padding: 0 10%;
+}
+
+.entire-page {
+  padding: 0 25%;
+}
+
+.page {
+  padding: 50px 0;
+}
+
+.page-one {
+  color: grey;
+}
+
+.page-one h1 {
+  margin-bottom: 10px;
+}
+.page-one hr {
+  height: 4px;
+  background-color: grey;
+  width: 210px;
+  text-align: left;
+  margin-left: 0;
+}
+
+.abstract {
+  max-width: 310px;
+}
+
+.page-two .quote {
+  margin-left: -140px;
+}
+
+.page-two .quote p{
+  color: goldenrod;
+  max-width: 520px;
+}
+
+.page-three {
+  background-color: lightgray;
+}
+
+.page-three {
+  display: flex;
+  justify-content: center;
+}
+
+.page-three img{
+  width: 99%;
+}
+
+.page-three .image {
+  margin: 100px auto 150px;
+}
+
+.page-three figure {
+  margin: auto 0;
+}
+
+.page-three figcaption {
+  margin-left: 30px;
+  color: gray;
+}
+
+.page-four .text p, .page-five .text p {
+  margin: auto 0px;
+}
+
+.page-four .bullet-points ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-four .bullet-points li {
+  padding: 20px 0;
+}
+
+.page-four .bullet-points .title {
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+.entire-page cite {
+  color: gray;
+}
+
+
+.page-five .table {
+  padding-top: 50px;
+}
+
+.page-five .table table,.page-five .table th,.page-five .table td {
+  border: 1px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-five .table table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-five .special-td {
+  color: goldenrod;
+}
+
+.comment-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form input {
+  margin-bottom: 8px;
+}
+
+.comment-form input[type=text]{
+  width: 200px;
+}
+
+.comment-form input[type=button]{
+  width: fit-content;
+}
+
+
+.comment-form #comment {
+  width: auto;
+  height: 200px;
+}
+
+.comment-form .below-textarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.checkboxes input[type=checkbox] {
+  margin-left: 0;
+}
