@@ -1,6 +1,8 @@
 body {
-  /* max-width: 542px;
-  margin: auto; */
+  padding: 0 15%;
+}
+
+.entire-page {
   padding: 0 25%;
 }
 
