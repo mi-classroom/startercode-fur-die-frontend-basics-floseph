@@ -107,3 +107,37 @@ body {
 .page-five .special-td {
   color: goldenrod;
 }
+
+.comment-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-form input {
+  margin-bottom: 8px;
+}
+
+.comment-form input[type=text]{
+  width: 200px;
+}
+
+.comment-form input[type=button]{
+  width: fit-content;
+}
+
+
+.comment-form #comment {
+  width: auto;
+  height: 200px;
+}
+
+.comment-form .below-textarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.checkboxes input[type=checkbox] {
+  margin-left: 0;
+}
