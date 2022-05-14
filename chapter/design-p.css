@@ -64,7 +64,7 @@ body {
   color: gray;
 }
 
-.page-four .text p {
+.page-four .text p, .page-five .text p {
   margin: auto 0px;
 }
 
@@ -85,4 +85,25 @@ body {
 
 .entire-page cite {
   color: gray;
+}
+
+
+.page-five .table {
+  padding-top: 50px;
+}
+
+.page-five .table table,.page-five .table th,.page-five .table td {
+  border: 1px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-five .table table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-five .special-td {
+  color: goldenrod;
 }
