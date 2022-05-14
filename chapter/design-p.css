@@ -1,9 +1,13 @@
 body {
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .entire-page {
   padding: 0 25%;
+}
+
+.page {
+  padding: 50px 0;
 }
 
 .page-one {
@@ -34,3 +38,28 @@ body {
   max-width: 520px;
 }
 
+.page-three {
+  background-color: lightgray;
+}
+
+.page-three {
+  display: flex;
+  justify-content: center;
+}
+
+.page-three img{
+  width: 99%;
+}
+
+.page-three .image {
+  margin: 100px auto 150px;
+}
+
+.page-three figure {
+  margin: auto 0;
+}
+
+.page-three figcaption {
+  margin-left: 30px;
+  color: gray;
+}
