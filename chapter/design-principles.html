@@ -173,18 +173,27 @@
 
         <input type="button" value="Upload Picture">
 
-        <label for="comment">Kommentar:</label>
-        <input type="text" id="comment" name="comment">
+        <!-- <label for="comment">Kommentar:</label>
+        <input type="text" id="comment" name="comment"> -->
 
-        <input type="checkbox" id="anon" name="anon">
-        <label for="anon">Show your name?</label>
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 
-        <input type="checkbox" id="tos" name="tos">
-        <label for="tos">Did you read the <a href="/">ToS</a>?</label>
-
-        <input type="button" value="Reset">
-
-        <input type="submit" value="Submit">
+        <div class="below-textarea">
+          <div class="checkboxes">
+            <input type="checkbox" id="anon" name="anon">
+            <label for="anon">Show your name?</label>
+  
+            <input type="checkbox" id="tos" name="tos">
+            <label for="tos">Did you read the <a href="/">ToS</a>?</label>
+          </div>
+  
+          <div class="reset-submit">
+            <input type="button" value="Reset">
+  
+            <input type="submit" value="Submit">
+          </div>
+        </div>
       </form>
     </div>
     
