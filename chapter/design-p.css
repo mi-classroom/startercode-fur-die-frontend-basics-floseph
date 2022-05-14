@@ -63,3 +63,26 @@ body {
   margin-left: 30px;
   color: gray;
 }
+
+.page-four .text p {
+  margin: auto 0px;
+}
+
+.page-four .bullet-points ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-four .bullet-points li {
+  padding: 20px 0;
+}
+
+.page-four .bullet-points .title {
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+.entire-page cite {
+  color: gray;
+}
